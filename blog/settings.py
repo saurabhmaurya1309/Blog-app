@@ -32,7 +32,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ["django-blog-rouizi.herokuapp.com"]
+ALLOWED_HOSTS = ["django-blog-rouizi.herokuapp.com", "blog-app-mxx6.onrender.com"]
 
 
 # Application definition
